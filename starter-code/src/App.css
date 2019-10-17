@@ -1,0 +1,49 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url('/images/react-logo.svg');
+  background-color: #1f2534;
+  padding: 30px 80px;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-title {
+  width: 24px;
+}
+/* 
+h1 {
+  margin: 130px 0 0;
+  font-size: 5em;
+} */
+
+aside {
+  font-size: 1.5em;
+}
+
+button {
+  color: #1f2534;
+  font-size: 1.5em;
+  font-weight: 500;
+  background-color: white;
+  padding: 20px;
+  margin: 50px 0;
+  border-radius: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 60px;
+}
+
+.card {
+  margin: 20px;
+}
